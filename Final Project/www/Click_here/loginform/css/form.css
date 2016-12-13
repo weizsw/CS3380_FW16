@@ -1,0 +1,60 @@
+.loginForm .input_style {
+	display: block;
+	margin-bottom: 10px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto; 
+
+}
+
+.first-row {
+	margin-top: 20px;
+}
+.radio {
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+button {
+	display: block;
+	height: 30px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* input[type="radio"] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    -ms-appearance: checkbox;     
+    -o-appearance: checkbox;     
+} */
+
+.login-btn {
+	background-color: #ffc601;
+}
+
+radio {
+	shape
+}
+.signup-btn {
+	background-color: #13448f;
+	margin-bottom: 20px;
+	color: white;
+}
+
+form a {
+	text-decoration: none;
+	color: black;
+}
+
+hr {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+form {
+	width: 250px;
+	max-height: 400px;
+	border: 1px solid black;
+}

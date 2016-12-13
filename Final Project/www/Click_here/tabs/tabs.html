@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="tabs-css.css">
+</head>
+<body>
+
+<div class="container">
+  <ul class="nav nav-tabs" id="firstRow">
+    <li class="active"><a data-toggle="tab" href="#menu0">Flight Reservation</a></li>
+    <li><a data-toggle="tab" href="#menu1">My booking</a></li>
+    <li><a data-toggle="tab" href="#menu2">Check-in</a></li>
+    <li><a data-toggle="tab" href="#menu3">Flight Status</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="menu0" class="tab-pane fade in active">
+    	<div class="pill-container">
+		  <ul class="nav nav-pills">
+		    <li class="active"><a data-toggle="pill" href="#roundT">Round Trip</a></li>
+		    <li><a data-toggle="pill" href="#oneW">One Way</a></li>
+		  </ul>
+		  
+		  <div class="tab-content">
+		    <div id="roundT" class="tab-pane fade in active">
+		      <div class="cityRow">
+		            <input type="text" name="fromCity" placeholder="From: City or airport">
+		            <input type="text" name="toCity" placeholder="To: City or airport">
+		            </div>
+		            <div class="timeRow">
+		              <input type="date" name="departDate">
+		              <input type="date" name="returnDate">
+		            </div>
+
+		            <div class="countRow">
+		              <select name="count">
+		                <option value="">1(16+years)</option>
+		                <option value="">2(16+years)</option>
+		                <option value="">3(16+years)</option>
+		                <option value="">4(16+years)</option>
+		                <option value="">5(16+years)</option>
+		                <option value="">6(16+years)</option>
+		                <option value="">7(16+years)</option>
+		              </select>
+		            </div>
+
+		            <div class="rankRow">
+		              <select name="rank">
+		                <option value="">Economy</option>
+		                <option value="">Preminum Economy</option>
+		                <option value="">Business</option>
+		                <option value="">First</option>
+		              </select>
+		            </div>
+		            <div class="rtBtn">
+		              <button type="submit">Find Flights</button>
+		            </div>
+		    </div>
+		    <div id="oneW" class="tab-pane fade">
+		      <div class="cityRow">
+		            <input type="text" name="fromCity" placeholder="From: City or airport">
+		            <input type="text" name="toCity" placeholder="To: City or airport">
+		            </div>
+		            <div class="timeRow">
+		              <input type="date" name="departDate">
+		              <input type="date" name="returnDate">
+		            </div>
+
+		            <div class="countRow">
+		              <select name="count">
+		                <option value="">1(16+years)</option>
+		                <option value="">2(16+years)</option>
+		                <option value="">3(16+years)</option>
+		                <option value="">4(16+years)</option>
+		                <option value="">5(16+years)</option>
+		                <option value="">6(16+years)</option>
+		                <option value="">7(16+years)</option>
+		              </select>
+		            </div>
+
+		            <div class="rankRow">
+		              <select name="rank">
+		                <option value="">Economy</option>
+		                <option value="">Preminum Economy</option>
+		                <option value="">Business</option>
+		                <option value="">First</option>
+		              </select>
+		            </div>
+		            <div class="rtBtn">
+		              <button type="submit">Find Flights</button>
+		            </div>
+		    </div>
+		    
+		  </div>
+		</div>
+  </div>  <!-- menu0 -->
+    <div id="menu1" class="tab-pane fade">
+    	<div class="pill-container">
+		  <ul class="nav nav-pills">
+		    <li class="active"><a data-toggle="pill" href="#reservationN">Reservation Number</a></li>
+		    <li><a data-toggle="pill" href="#e-Ticket">e-Ticket number</a></li>
+		  </ul>
+		  
+		  <div class="tab-content">
+		    <div id="reservationN" class="tab-pane fade in active">
+		      <div class="cityRow">
+		            <input type="text" name="ticketN" placeholder="Reservation Number: Alphanumeric characters [6 digits]">
+		            <input type="text" name="firstN" placeholder="First(Given)name: ex. DAVIDSCOTT">
+
+		            <input type="text" name="lastN" placeholder="Last(Family)name: ex. JOHNSON">
+		      </div>
+		            
+		            <div class="rtBtn">
+		              <button type="submit">Find Flights</button>
+		            </div>
+		    </div>
+		    <div id="e-Ticket" class="tab-pane fade">
+		      <div class="cityRow">
+		            <input type="text" name="ticketN" placeholder="e-Ticket number: Numberic digits [13 digits]">
+		            <input type="text" name="firstN" placeholder="First(Given)name: ex. DAVIDSCOTT">
+
+		            <input type="text" name="lastN" placeholder="Last(Family)name: ex. JOHNSON">
+		       </div>
+		           
+
+		            <div class="rtBtn">
+		              <button type="submit">Find Flights</button>
+		            </div>
+		    </div>
+		    
+		  </div>
+		</div>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+    	<p>Online Check-in is available from 24 hours until 75 minutes prior to the departure time of the OUR operated international flight.</p>
+    	<div class="pill-container">
+		  <ul class="nav nav-pills">
+		    <li class="active"><a data-toggle="pill" href="#CreservationN">Reservation Number</a></li>
+		    <li><a data-toggle="pill" href="#Ce-Ticket">e-Ticket number</a></li>
+		  </ul>
+		  
+		  <div class="tab-content">
+		    <div id="CreservationN" class="tab-pane fade in active">
+		      <div class="cityRow">
+		            <input type="text" name="ticketN" placeholder="Reservation Number: Alphanumeric characters [6 digits]">
+		            <input type="text" name="firstN" placeholder="First(Given)name: ex. DAVIDSCOTT">
+
+		            <input type="text" name="lastN" placeholder="Last(Family)name: ex. JOHNSON">
+		      </div>
+		            
+            <div class="rtBtn">
+              <button type="submit">Find Flights</button>
+            </div>
+		    </div>
+		    <div id="Ce-Ticket" class="tab-pane fade">
+		      <div class="cityRow">
+		            <input type="text" name="ticketN" placeholder="e-Ticket number: Numberic digits [13 digits]">
+		            <input type="text" name="firstN" placeholder="First(Given)name: ex. DAVIDSCOTT">
+
+		            <input type="text" name="lastN" placeholder="Last(Family)name: ex. JOHNSON">
+		       </div>
+		           
+
+		            <div class="rtBtn">
+		              <button type="submit">Find Flights</button>
+		            </div>
+		    </div>
+		    
+		  </div>
+		</div>
+
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+

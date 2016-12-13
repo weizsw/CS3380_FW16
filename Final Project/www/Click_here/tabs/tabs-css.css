@@ -1,0 +1,83 @@
+
+
+.container {
+	max-width: 438px;
+	
+}
+
+.tab-content {
+	background-color: #13448f;
+}
+.tab-pane li {
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 40%;
+	text-align: center;
+}
+
+.countRow select, .rankRow select {
+	display: inline;
+	width: 90%;
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-right: 20px; 
+}
+
+.timeRow input {
+	display: inline;
+	width: 40%;
+	margin-left: 20px;
+	margin-right: 20px; 
+
+}
+.cityRow input {
+	display: block;
+	margin-bottom: 10px;
+	width: 90%;
+	margin-left: 20px;
+	margin-right: 20px; 
+}
+.nav-tabs li{
+  list-style: none;
+  padding: 0；
+}
+
+.rtBtn button{
+	text-align: center;
+	display: block;
+	width: 50%;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ffc601;
+}
+#menu2 p {
+	color: white;
+	margin-left: 20px;
+	margin-right: 20px; 
+	font-size: 12px;
+}
+.nav-tabs:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.nav-tabs li a {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	text-decoration: none;
+	background: #333333;
+	color: white;
+	font-size: 12px;
+	float: left;
+	/* width: 99%; */
+	height: 60px;
+	width: 100px;
+	margin-bottom: 5px;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: .5s ease;
+	transition: .5s ease;
+}

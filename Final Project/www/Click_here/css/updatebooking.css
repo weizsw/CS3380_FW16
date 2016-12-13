@@ -1,0 +1,139 @@
+.header .logo {
+    width: 120px;
+    height: 120px;
+    background: #1a6dfa;
+}
+
+.header {
+    display: flex;
+    /* float: left; */
+    width: 80%;
+    margin-left: 150px;
+    align-items: center;
+    /* justify-content: center; */
+    /* background: #1a6dfa; */
+    /* border: 1px solid black; */
+}
+.header .home {
+    margin-left: 40%;
+
+}
+.header .home a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.header .home a:hover {
+    color: #13448f;
+
+}
+
+td {
+    background: #f1f4f8;
+
+}
+
+.progress {
+	height: 40px;
+	background: white;
+	width: 100%;
+	display: flex;
+	border: none;
+}
+.pacman {
+    width: 0px;
+    height: 0px;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #eeeeee;
+    border-left: 12px solid #eeeeee;
+    border-bottom: 12px solid #eeeeee;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-left: 60px;
+ /*    display: inline; */
+}
+.active {
+	width: 0px;
+    height: 0px;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #012f64;
+    border-left: 12px solid #012f64;
+    border-bottom: 12px solid #012f64;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-left: 170px;
+}
+
+h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #fc1e70;
+}
+
+.information {
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
+    width: 50%;
+}
+
+input[name="fname"] {
+    width: 48%;
+    margin-bottom: 20px;
+    height: 40px;
+    text-indent: 10px;
+}
+input[name="lname"] {
+    width: 48%;
+    margin-bottom: 20px;
+      height: 40px;
+    float: right;
+    text-indent: 10px;
+}
+input[name="age"] {
+    width: 48%;
+    margin-bottom: 20px;
+      height: 40px;
+    text-indent: 10px;
+}
+input[name="num_bags"] {
+    width: 48%;
+    margin-bottom: 20px;
+      height: 40px;
+    float: right;
+    text-indent: 10px;
+}
+input[name="username"] {
+    width: 48%;
+    margin-bottom: 20px;
+    height: 40px;
+    text-indent: 10px;
+}
+input[name="password"] {
+    width: 48%;
+    margin-bottom: 20px;
+    height: 40px;
+    text-indent: 10px;
+    float: right;
+}
+.submit-btn {
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.submit-btn input {
+    width: 80px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 1.0em;
+    background: #ffc601;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="pill-container">
+  <h2>Dynamic Pills</h2>
+  <ul class="nav nav-pills">
+    <li class="active"><a data-toggle="pill" href="#roundT">Round Trip</a></li>
+    <li><a data-toggle="pill" href="#oneW">One Way</a></li>
+  </ul>
+  
+  <div class="tab-content">
+    <div id="roundT" class="tab-pane fade in active">
+      <div class="cityRow">
+            <input type="text" name="fromCity" placeholder="From: City or airport">
+            <input type="text" name="toCity" placeholder="To: City or airport">
+            </div>
+            <div class="timeRow">
+              <input type="date" name="departDate">
+              <input type="date" name="returnDate">
+            </div>
+
+            <div class="countRow">
+              <select name="count">
+                <option value="">1(16+years)</option>
+                <option value="">2(16+years)</option>
+                <option value="">3(16+years)</option>
+                <option value="">4(16+years)</option>
+                <option value="">5(16+years)</option>
+                <option value="">6(16+years)</option>
+                <option value="">7(16+years)</option>
+              </select>
+            </div>
+
+            <div class="rankRow">
+              <select name="rank">
+                <option value="">Economy</option>
+                <option value="">Preminum Economy</option>
+                <option value="">Business</option>
+                <option value="">First</option>
+              </select>
+            </div>
+            <div class="rtBtn">
+              <button type="submit">Find Flights</button>
+            </div>
+    </div>
+    <div id="oneW" class="tab-pane fade">
+      <div class="cityRow">
+            <input type="text" name="fromCity" placeholder="From: City or airport">
+            <input type="text" name="toCity" placeholder="To: City or airport">
+            </div>
+            <div class="timeRow">
+              <input type="date" name="departDate">
+              <input type="date" name="returnDate">
+            </div>
+
+            <div class="countRow">
+              <select name="count">
+                <option value="">1(16+years)</option>
+                <option value="">2(16+years)</option>
+                <option value="">3(16+years)</option>
+                <option value="">4(16+years)</option>
+                <option value="">5(16+years)</option>
+                <option value="">6(16+years)</option>
+                <option value="">7(16+years)</option>
+              </select>
+            </div>
+
+            <div class="rankRow">
+              <select name="rank">
+                <option value="">Economy</option>
+                <option value="">Preminum Economy</option>
+                <option value="">Business</option>
+                <option value="">First</option>
+              </select>
+            </div>
+            <div class="rtBtn">
+              <button type="submit">Find Flights</button>
+            </div>
+    </div>
+    
+  </div>
+</div>
+
+</body>
+</html>
+
