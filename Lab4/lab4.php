@@ -43,9 +43,9 @@
 </body>
 	<?php
 		$hostname = 'localhost';
-		$username = 'szz63';
-		$password = '466457296';
-		$dbname = 'szz63';
+		$username = ''*****';';
+		$password = '*****';
+		$dbname = ''*****';';
 		$link = new mysqli($hostname, $username, $password, $dbname) or die("Connection Error on Line 46:" . mysqli_connect_error());
 
 
